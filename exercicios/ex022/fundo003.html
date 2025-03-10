@@ -12,10 +12,13 @@
             border: 1px solid black;
             border-radius: 10px;
             margin: 10px;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
             height: 300px;
-            width: 432px;
+            
         }
-        div>p{
+        p{
             color: orangered;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size:25px;
@@ -24,6 +27,7 @@
             font-weight: bolder;
             
         }
+       
         div#q1{
             background-image: url('imagens/wallpaper003.jpg');
             background-position: left top;
@@ -47,7 +51,7 @@
 </head>
 <body>
     <div class="fundo" id="q1">
-        <p class="texto" >Aqui usamos "background-position: left top"</p>
+        <p id="t1" >Aqui usamos "background-position: left top"</p>
     </div>
     <div class="fundo" id="q2">
         <p class="texto">Aqui usamos "background-position: right top"</p>
